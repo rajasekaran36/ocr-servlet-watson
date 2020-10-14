@@ -33,7 +33,7 @@ public class ImageToTextConverter extends HttpServlet {
     }
 
     @Override
-    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException,ParseException {
+    protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         System.out.println("Hello World!");
         // File f = new File("src/main/java/com/raja/wt/u4/sax/ap.PNG");
         ServletFileUpload sf = new ServletFileUpload(new DiskFileItemFactory());
